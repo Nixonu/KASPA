@@ -2,7 +2,7 @@
 Description=kaspa miner service                                                                                                                                       
                                                                                                                                                                                            
 [Service]
-RestartSec=3
+RestartSec=30
 Restart=always                                                                                                                                                                            
 
 WorkingDirectory=/home/user/                                                                                                                                                       
