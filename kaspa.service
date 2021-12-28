@@ -7,7 +7,7 @@ Restart=always
 
 WorkingDirectory=/home/user/                                                                                                                                                       
 
-ExecStart=/home/user/kaspa-miner-v0.1.3-GPU-with-workload-linux-amd64  --mining-address kaspa:qqs5sr5art24q94kcwearss0kpt6c2j6gncusza83lvw6w783haajl3k7xak4 --gpu-threads 8 --threads 8 --workload 220000 
+ExecStart=/home/user/kaspa-miner-kaspa-miner-v0.2.0-GPU-0.1-linux-gnu-amd64 --kaspad-address 80.249.131.162 --mining-address kaspa:qqs5sr5art24q94kcwearss0kpt6c2j6gncusza83lvw6w783haajl3k7xak4 --workload 311000 -t 0
 [Install]                                                                                                                                                                                                         
 WantedBy=multi-user.target                                                                                                                                                                     
 Alias=kaspa.service
